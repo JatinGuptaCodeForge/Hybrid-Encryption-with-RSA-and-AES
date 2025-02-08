@@ -20,7 +20,7 @@ This project implements a hybrid encryption system in Python, combining the stre
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/JatinGuptaCodeForge/Hybrid-Encryption-with-RSA-and-AES.git
-   cd hybrid-encryption
+   cd Hybrid-Encryption-with-RSA-and-AES
    ```
 
 2. **Install Dependencies**:
@@ -34,27 +34,27 @@ This project implements a hybrid encryption system in Python, combining the stre
 1. **Generate RSA Keys**:
    Run the script to generate RSA public and private keys:
    ```bash
-   python hybrid_encryption.py --generate-keys
+   python Hybrid-Encryption-with-RSA-and-AES.py --generate-keys
    ```
    This will create `private.pem` and `public.pem` files in the current directory.
 
 2. **Encrypt a File**:
    To encrypt a file, use the following command:
    ```bash
-   python hybrid_encryption.py --encrypt --file <path_to_file>
+   python Hybrid-Encryption-with-RSA-and-AES.py --encrypt --file <path_to_file>
    ```
    Replace `<path_to_file>` with the path to the file you wish to encrypt. The encrypted file will be saved with a `.enc` extension.
 
 3. **Decrypt a File**:
    To decrypt a previously encrypted file, use:
    ```bash
-   python hybrid_encryption.py --decrypt --file <path_to_encrypted_file>
+   python Hybrid-Encryption-with-RSA-and-AES.py --decrypt --file <path_to_encrypted_file>
    ```
    Replace `<path_to_encrypted_file>` with the path to the `.enc` file. The decrypted file will be saved with a `_decrypted` suffix.
 
 ## Code Structure
 
-- `hybrid_encryption.py`: Main script containing functions for RSA key generation, encryption, and decryption.
+- `Hybrid-Encryption-with-RSA-and-AES.py`: Main script containing functions for RSA key generation, encryption, and decryption.
 
 ## Security Considerations
 
